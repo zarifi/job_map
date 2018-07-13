@@ -1,0 +1,18 @@
+<h1>Hello World</h1>
+
+<button onclick="getData()">Get Info</button>
+
+
+<script>
+
+
+function getData(){
+
+	httpRequest = new XMLHttpRequest()
+	httpRequest.open('GET', '/job/search/')
+	httpRequest.send()
+
+}
+	
+
+</script>
